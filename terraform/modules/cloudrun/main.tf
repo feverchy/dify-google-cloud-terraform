@@ -42,7 +42,7 @@ resource "google_cloud_run_v2_service" "dify_service" {
       resources {
         limits = {
           cpu    = "1"
-          memory = "4Gi"
+          memory = "1Gi"
         }
       }
       ports {
@@ -65,7 +65,7 @@ resource "google_cloud_run_v2_service" "dify_service" {
       resources {
         limits = {
           cpu    = "1"
-          memory = "4Gi"
+          memory = "1Gi"
         }
       }
       env {
@@ -219,7 +219,7 @@ resource "google_cloud_run_v2_service" "dify_service" {
       resources {
         limits = {
           cpu    = "1"
-          memory = "4Gi"
+          memory = "1Gi"
         }
       }
       env {
@@ -265,7 +265,7 @@ resource "google_cloud_run_v2_service" "dify_worker" {
       resources {
         limits = {
           cpu    = "1"
-          memory = "4Gi"
+          memory = "1Gi"
         }
       }
       env {
@@ -433,7 +433,7 @@ resource "google_cloud_run_v2_service" "dify_sandbox" {
       resources {
         limits = {
           cpu    = "1"
-          memory = "4Gi"
+          memory = "1Gi"
         }
       }
       ports {

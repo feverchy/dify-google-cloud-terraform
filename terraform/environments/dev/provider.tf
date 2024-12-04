@@ -16,7 +16,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket = "your-tfstate-bucket" # replace with your bucket name
+    bucket = "dify-bucket-dev" # replace with your bucket name
     prefix = "dify"
   }
 }
